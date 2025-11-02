@@ -1,0 +1,17 @@
+# Requerimientos principales para Parcial-BigData
+pandas==2.2.2
+
+# Manipulación y análisis de datos
+# (pandas ya incluido arriba)
+
+# Visualización de datos
+#matplotlib==3.9.1
+
+# Soporte para notebooks
+#jupyter==1.0.0
+#notebook==7.2.0
+
+# Web (si tu app usa Flask; quítalo si no aplica)
+flask==2.2.5
+
+
