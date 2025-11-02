@@ -34,6 +34,10 @@
             notebooks/01_etl.ipynb → ejecución paso a paso del proceso ETL
             notebooks/02_eda.ipynb → análisis exploratorio y visualización de resultados
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ee52224 (Update)
 * ***Explicación del proyecto***
   * **Extract:** Obtiene los datos de origen (archivos CSV o fuentes externas) y los prepara para la transformación.
   * **Transform:** Limpia, normaliza y fusiona los datos. Se manejan valores nulos, se convierten tipos y se calculan métricas relevantes.
@@ -56,4 +60,8 @@
 
     * Jupyter Notebooks
 
+<<<<<<< HEAD
     * Estructura modular ETL (carpetas Extract, Transform, Load)
+=======
+    * Estructura modular ETL (carpetas Extract, Transform, Load)
+>>>>>>> ee52224 (Update)
