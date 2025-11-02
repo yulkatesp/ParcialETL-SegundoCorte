@@ -1,4 +1,6 @@
 # Requerimientos principales para Parcial-BigData
+pandas
+
 
 # Manipulación y análisis de datos
 pandas==2.2.2
