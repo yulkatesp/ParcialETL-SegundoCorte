@@ -35,9 +35,12 @@
             notebooks/02_eda.ipynb → análisis exploratorio y visualización de resultados
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ee52224 (Update)
+=======
+>>>>>>> 46b4538 (Initial Dockerized Python app)
 * ***Explicación del proyecto***
   * **Extract:** Obtiene los datos de origen (archivos CSV o fuentes externas) y los prepara para la transformación.
   * **Transform:** Limpia, normaliza y fusiona los datos. Se manejan valores nulos, se convierten tipos y se calculan métricas relevantes.

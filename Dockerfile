@@ -1,17 +1,15 @@
-# Imagen base con Python más reciente
 FROM python:latest
-
-# Directorio de trabajo dentro del contenedor
 WORKDIR /app
 
-# Copiar archivo de dependencias
+# Copiar requerimientos e instalar
 COPY requirements.txt .
-
-# Instalar dependencias
+RUN pip install --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copiar el resto del código
+# Copiar el resto de la app
 COPY . .
 
-# Comando por defecto para ejecutar tu script
+# Puerto (Railway proporcionará PORT)
+ENV PORT=${PORT:-8000}
+
 CMD ["python", "main.py"]
